@@ -26,7 +26,6 @@ import java.util.TimerTask;
 import javax.swing.Timer;
 
 public class Mario extends GraphicsProgram {
-<<<<<<< HEAD
 	public Level level = new Level();
 	public static final String MUSIC_FOLDER = "sounds";
 
@@ -39,15 +38,11 @@ public class Mario extends GraphicsProgram {
 	private GRect gap1 = new GRect(3800, 599, 200, 200);
 	private GRect gap2 = new GRect(8350, 599, 600, 200);
 	
-//=======
-	private Enemies[] Goomba;
 
 	private Platform[][] platform;
 	private Platform[] Ground;
-	private Level level;
 	private Platform[][] Pipe;
 
-//>>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
 
 //	private GImage waterR = new GImage("water1.png",2800,479);
 //	private GImage waterR1 = new GImage("water1.png",3800,479);
@@ -158,8 +153,6 @@ public class Mario extends GraphicsProgram {
 		MarioImgLeft = new GImage("MarioLeft.png", Mario.getX(), Mario.getY() - 1);
 		MarioImgLeft.setSize(50, 57);
 		add(MarioImgRight);
-<<<<<<< HEAD
-=======
 		platform = new Platform[50][10];
 		
 		for (int a = 0; a < platform.length; a++)
@@ -324,7 +317,6 @@ public class Mario extends GraphicsProgram {
 		Timer t = new Timer(10, this);
 		t.start();
 		addKeyListeners();
->>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
 	}
 
 	private void playJumpSound() {

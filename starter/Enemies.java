@@ -80,17 +80,14 @@ public class Enemies extends GraphicsProgram {
 		return GoombaImg;
 	}
 	
-//<<<<<<< HEAD
 //	public GImage getBBImg() {
 //		return BBImg;
-//=======
 	public GImage getGoombaImgRight() {
 		return GoombaImgRight;
 	}
 	
 	public GImage getGoombaImgLeft() {
 		return GoombaImgLeft;
-//>>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
 	}
 
 	public GRect getTop() {
@@ -133,7 +130,6 @@ public class Enemies extends GraphicsProgram {
 		return BBDead;
 	}
 //
-//<<<<<<< HEAD
 //	public void animateGoomba(int i) {
 //		if (i % 2 == 0) {
 //			GoombaImg.setImage("GoombaRight.png");
@@ -154,8 +150,6 @@ public class Enemies extends GraphicsProgram {
 //		}
 //	}
 //
-//=======
-//>>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
 	public Enemies() {
 		Top = new GRect(0, 0, 0, 0);
 		Bottom = new GRect(0, 0, 0, 0);

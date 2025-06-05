@@ -52,12 +52,9 @@ public class Platform extends GraphicsProgram{
 		Bottom = new GRect(0, 0, 0, 0);
 		Left = new GRect(0, 0, 0, 0);
 		Right = new GRect(0, 0, 0, 0);
-//<<<<<<< HEAD
 //		Ground.setColor(new Color(212, 212, 212));	
-//=======
 		platImg = new GImage("Block.png", 0, 0);
 		platImg.setSize(0, 0);
-//>>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
 	}
 	
 	public void InitilizePlatform(int x, int y, int w, int h, int q){
@@ -68,11 +65,8 @@ public class Platform extends GraphicsProgram{
 		Top.setBounds(x+q, y, w-2*q, h/2);
 		Bottom.setBounds(x+q, y+h/2, w-2*q, h/2);
 		Left.setBounds(x, y+q, q, h-2*q);
-//<<<<<<< HEAD
 //		Right.setBounds(x+w-q, y+q, q, h-2*q);	
-//=======
 		Right.setBounds(x+w-q, y+q, q, h-2*q);
-//>>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
 	}
 	
 	public void InitilizePipe(int x, int y, int w, int h, int q){
@@ -108,4 +102,3 @@ public class Platform extends GraphicsProgram{
 		add(p.getPlatImg());
 	}
 }
-//>>>>>>> branch 'master' of https://github.com/comp55-fall18/group-project-cloud9.git
